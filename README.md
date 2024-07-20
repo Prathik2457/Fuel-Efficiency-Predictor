@@ -38,7 +38,9 @@ The model effectively predicts fuel efficiency with a Mean Absolute Error of 1.8
 
 ## Technologies Used
 Programming Language: Python
+<br>
 Frameworks: TensorFlow, Keras
+<br>
 Libraries: Pandas, Matplotlib, Seaborn, pathlib
 
 
