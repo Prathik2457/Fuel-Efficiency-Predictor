@@ -29,10 +29,10 @@ Data preprocessing is a crucial step in ensuring the accuracy and effectiveness 
 
 ## Building the model
 1) Developed in TensorFlow/Keras, using Neural Networks with multiple layers for intricate attribute relationships.
-<br>
 2) Implemented loss optimization techniques such as Early Stopping, thereby achieving a Mean Absolute Error of 1.83 MPG(Miles Per Gallon).
-<br>
 3) Leveraged RMS prop optimizer to fine-tune the parameters, enhancing training convergence & better prediction accuracy.
+
+
 ## Results
 
 
