@@ -4,7 +4,7 @@ This project aims to estimate the fuel efficiency of vehicles based on various i
 ## Table of Contents
 1. Introduction
 2. Dataset
-3.Data pre-processing & Feature Scaling
+3. Data pre-processing & Feature Scaling
 4. Building the model
 6. Results
 7. Conclusion
