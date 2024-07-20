@@ -7,13 +7,12 @@ This project aims to estimate the fuel efficiency of vehicles based on various i
 3. Data pre-processing 
 4. Building the model
 5. Results
-6. Conclusion
-7. Technologies Used 
+6. Technologies Used 
 ## Introduction
 The Fuel Efficiency Predictor is a project aimed to estimate a vehicle's fuel consumption based on various parameters. With growing concerns about fuel efficiency and environmental impact, this project aims to provide a reliable and accessible solution for vehicle owners seeking to optimize their fuel usage.
 ## Dataset
 The dataset used for this project is known as Auto-MPG dataset and is taken from https://archive.ics.uci.edu/dataset/9/auto+mpg. The dataset contains data of various vehicles such as 'MPG','Cylinders','Horsepower','Car Name','Acceleration','Origin','Model Year'.
-## Data pre-processing:
+## Data pre-processing
 Data preprocessing is a crucial step in ensuring the accuracy and effectiveness of the Fuel Efficiency Predictor. This phase involves preparing and cleaning the data to make it suitable for analysis and training of the model.
 <br>
 1)Data Cleaning:
@@ -29,18 +28,11 @@ Data preprocessing is a crucial step in ensuring the accuracy and effectiveness 
 (ii)Categorical Encoding: Converted categorical variables into numerical values using techniques such as one-hot encoding or label encoding to make them suitable for machine learning models.
 
 ## Building the model
-1)Model Architecture:
+1) Developed in TensorFlow/Keras, using Neural Networks with multiple layers for intricate attribute relationships.
 <br>
-(i)Input layer with 64 neurons and ReLU activation.
+2) Implemented loss optimization techniques such as Early Stopping, thereby achieving a Mean Absolute Error of 1.83 MPG(Miles Per Gallon).
 <br>
-(ii)Hidden layer with 64 neurons and ReLU activation.
-<br>
-(iii)Output layer with a single neuron for predicting fuel efficiency.
-<br>
-(iv)Optimizer: RMSprop with a learning rate of 0.001.
-<br>
-(v)Loss Function: Mean Squared Error (MSE)
-<br>
-2)Training: The model is trained to minimize MSE using the provided dataset.
-<br>
-3)Evaluation: Training and validation performance are visualized with plots of Mean Absolute Error (MAE) and Mean Squared Error (MSE) over epochs.
+3) Leveraged RMS prop optimizer to fine-tune the parameters, enhancing training convergence & better prediction accuracy.
+## Results
+
+
