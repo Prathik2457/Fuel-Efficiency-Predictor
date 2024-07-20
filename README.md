@@ -6,9 +6,9 @@ This project aims to estimate the fuel efficiency of vehicles based on various i
 2. Dataset
 3. Data pre-processing 
 4. Building the model
-6. Results
-7. Conclusion
-8. Technologies Used 
+5. Results
+6. Conclusion
+7. Technologies Used 
 ## Introduction
 The Fuel Efficiency Predictor is a project aimed to estimate a vehicle's fuel consumption based on various parameters. With growing concerns about fuel efficiency and environmental impact, this project aims to provide a reliable and accessible solution for vehicle owners seeking to optimize their fuel usage.
 ## Dataset
@@ -27,3 +27,20 @@ Data preprocessing is a crucial step in ensuring the accuracy and effectiveness 
 (i)Normalization/Standardization: Scaled numerical features to ensure uniformity and improve model performance. This helps in bringing different features to a common scale without distorting differences in the range of values.
 <br>
 (ii)Categorical Encoding: Converted categorical variables into numerical values using techniques such as one-hot encoding or label encoding to make them suitable for machine learning models.
+
+## Building the model
+1)Model Architecture:
+<br>
+(i)Input layer with 64 neurons and ReLU activation.
+<br>
+(ii)Hidden layer with 64 neurons and ReLU activation.
+<br>
+(iii)Output layer with a single neuron for predicting fuel efficiency.
+<br>
+(iv)Optimizer: RMSprop with a learning rate of 0.001.
+<br>
+(v)Loss Function: Mean Squared Error (MSE)
+<br>
+2)Training: The model is trained to minimize MSE using the provided dataset.
+<br>
+3)Evaluation: Training and validation performance are visualized with plots of Mean Absolute Error (MAE) and Mean Squared Error (MSE) over epochs.
