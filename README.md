@@ -15,24 +15,30 @@ The dataset used for this project is known as Auto-MPG dataset and is taken from
 ## Data pre-processing
 Data preprocessing is a crucial step in ensuring the accuracy and effectiveness of the Fuel Efficiency Predictor. This phase involves preparing and cleaning the data to make it suitable for analysis and training of the model.
 <br>
-1)Data Cleaning:
+1.Data Cleaning:
 <br>
 (i)Handling Missing Values: Identified and addressed missing or incomplete data by removal, depending on the extent and importance of the missing values.
 <br>
 (ii)Removing Duplicates: Checked for and eliminated any duplicate records to maintain the integrity of the database.
 <br>
-2)Feature Engineering:
+2.Feature Engineering:
 <br>
 (i)Normalization/Standardization: Scaled numerical features to ensure uniformity and improve model performance. This helps in bringing different features to a common scale without distorting differences in the range of values.
 <br>
 (ii)Categorical Encoding: Converted categorical variables into numerical values using techniques such as one-hot encoding or label encoding to make them suitable for machine learning models.
 
 ## Building the model
-1) Developed in TensorFlow/Keras, using Neural Networks with multiple layers for intricate attribute relationships.
-2) Implemented loss optimization techniques such as Early Stopping, thereby achieving a Mean Absolute Error of 1.83 MPG(Miles Per Gallon).
-3) Leveraged RMS prop optimizer to fine-tune the parameters, enhancing training convergence & better prediction accuracy.
+1. Developed in TensorFlow/Keras, using Neural Networks with multiple layers for intricate attribute relationships.
+2. Implemented loss optimization techniques such as Early Stopping, thereby achieving a Mean Absolute Error of 1.83 MPG(Miles Per Gallon).
+3. Leveraged RMS prop optimizer to fine-tune the parameters, enhancing training convergence & better prediction accuracy.
 
 
 ## Results
+The model effectively predicts fuel efficiency with a Mean Absolute Error of 1.83 MPG. The use of early stopping has enhanced model performance by reducing overfitting and improving generalization.
+
+## Technologies Used
+Programming Language: Python
+Frameworks: TensorFlow, Keras
+Libraries: Pandas, Matplotlib, Seaborn, pathlib
 
 
