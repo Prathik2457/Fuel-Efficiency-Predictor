@@ -8,4 +8,6 @@ This project aims to estimate the fuel efficiency of vehicles based on various i
 4. Building the model
 6. Results
 7. Conclusion
-8. Tech Stack 
+8. Technologies Used 
+## Introduction
+The Fuel Efficiency Predictor is a project aimed to estimate a vehicle's fuel consumption based on various parameters. With growing concerns about fuel efficiency and environmental impact, this project aims to provide a reliable and accessible solution for vehicle owners seeking to optimize their fuel usage.
